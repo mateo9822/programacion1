@@ -9,9 +9,10 @@ package programainterfaz;
  *
  * @author Mateo
  */
-public class Persona implements PuedeCantar { 
-    public void cantar() { 
-        System.out.println("do re mi fa sol la si"); 
-    } 
+public class Burro implements PuedeCantar {
+    @Override
+    public void cantar() {
+        System.out.println("ESOS TALES FALSOS POSITIVOS NO EXISTEN");
+    }
+    
 }
-

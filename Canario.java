@@ -9,9 +9,9 @@ package programainterfaz;
  *
  * @author Mateo
  */
-public class Persona implements PuedeCantar { 
+public class Canario implements PuedeCantar { 
     public void cantar() { 
-        System.out.println("do re mi fa sol la si"); 
+        System.out.println("pio pio pio"); 
     } 
 }
 
